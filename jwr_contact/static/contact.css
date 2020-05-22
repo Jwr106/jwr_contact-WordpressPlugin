@@ -1,0 +1,30 @@
+#contact{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    cursor: pointer;
+}
+.contact{
+    margin: 20px;
+}
+.contact .input{
+    width: 300px;
+    height: 35px;
+}
+.contact .input, .contact .textarea{
+    display: block;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.contact .btn-wrap{
+    text-align: center;
+}
+.contact .button{
+    padding: 8px 16px;
+    background-color: #35a4dc;
+}
